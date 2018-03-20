@@ -1,0 +1,7 @@
+services:
+  web:
+    build: .
+    command: rails s
+    domain: test.rentlystaging.com
+    health: /
+    port: 3000
